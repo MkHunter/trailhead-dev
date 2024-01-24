@@ -1,0 +1,79 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "House__c",
+                "referenceId": "House__cRef1"
+            },
+            "Name": "Stunning Victorian",
+            "Address__c": "18 Henry St",
+            "State__c": "MA",
+            "City__c": "Cambridge",
+            "Zip__c": "01742",
+            "Bedroom__c": 4,
+            "Bathrooms__c": 3,
+            "Price__c": 975000,
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house01.jpg"
+        },
+        {
+            "attributes": {
+                "type": "House__c",
+                "referenceId": "House__cRef2"
+            },
+            "Name": "Ultimate Sophistication",
+            "Address__c": "24 Pearl St",
+            "State__c": "MA",
+            "City__c": "Cambridge",
+            "Zip__c": "02420",
+            "Bedroom__c": 5,
+            "Bathrooms__c": 4,
+            "Price__c": 1200000,
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house02.jpg"
+        },
+        {
+            "attributes": {
+                "type": "House__c",
+                "referenceId": "House__cRef3"
+            },
+            "Name": "Modern City Living",
+            "Address__c": "72 Francis st",
+            "State__c": "MA",
+            "City__c": "Boston",
+            "Zip__c": "02420",
+            "Bedroom__c": 5,
+            "Bathrooms__c": 4,
+            "Price__c": 825000,
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house03.jpg"
+        },
+        {
+            "attributes": {
+                "type": "House__c",
+                "referenceId": "House__cRef4"
+            },
+            "Name": "Stunning Colonial",
+            "Address__c": "32 Prince st",
+            "State__c": "MA",
+            "City__c": "Cambridge",
+            "Zip__c": "02420",
+            "Bedroom__c": 5,
+            "Bathrooms__c": 4,
+            "Price__c": 930000,
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house04.jpg"
+        },
+        {
+            "attributes": {
+                "type": "House__c",
+                "referenceId": "House__cRef5"
+            },
+            "Name": "Waterfront in the City",
+            "Address__c": "110 Baxter Street",
+            "State__c": "MA",
+            "City__c": "Boston",
+            "Zip__c": "02420",
+            "Bedroom__c": 3,
+            "Bathrooms__c": 2,
+            "Price__c": 850000,
+            "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house05.jpg"
+        }
+    ]
+}

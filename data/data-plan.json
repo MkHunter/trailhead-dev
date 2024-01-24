@@ -10,5 +10,13 @@
         "saveRefs": true,
         "resolveRefs": true,
         "files": ["Contacts.json"]
+    },
+    {
+        "sobject": "House__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "House__cs.json"
+        ]
     }
 ]

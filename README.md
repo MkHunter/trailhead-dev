@@ -101,8 +101,11 @@ Set up your environment. Follow the steps in the [Quick Start: Lightning Web Com
 
 3. Create a scratch org and provide it with an alias (**trailhead-dev** in the command below):
 
-    ```
+    ```bash
+    # sf command
     sf org create scratch -d -f config/project-scratch-def.json -a trailhead-dev
+    # dxatscale pool
+    sfp pool:fetch -t dev -v myhuborg -a trailhead-dev
     ```
 
 4. Push the app to your scratch org:
@@ -111,19 +114,28 @@ Set up your environment. Follow the steps in the [Quick Start: Lightning Web Com
     sf project deploy start
     ```
 
-5. Assign the **trailhead** permission set to the default user:
+5. Import user data:
+
+    ```bash
+    # push user
+    
+    # check list of users
+    sf org list users --target-org trailhead-dev
+    ```
+
+6. Assign the **trailhead** permission set to the default user:
 
     ```
     sf org assign permset -n trailhead
     ```
 
-6. Import sample data:
+7. Import sample data:
 
     ```
     sf data tree import -p ./data/data-plan.json
     ```
 
-7. Open the scratch org:
+8. Open the scratch org:
 
     ```
     sf org open
@@ -135,6 +147,7 @@ Set up your environment. Follow the steps in the [Quick Start: Lightning Web Com
 ## Roadmap
 
 - [x] Add README
+- [x] Add [Get Started with Salesforce Development](https://trailhead.salesforce.com/content/learn/projects/get-started-with-salesforce-development?trail_id=force_com_dev_beginner)
 - [ ] Add badge
 
 See the [open issues](https://github.com/MkHunter/trailhead-dev/issues) for a full list of proposed features (and known issues).
